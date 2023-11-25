@@ -1,0 +1,28 @@
+SCHOOL GRADE CARD.
+subject_1 = float(input("enter the number in subject 1="))
+subject_2 = float(input("enter the number in subject 2="))
+subject_3 = float(input("enter the number in subject 3="))
+subject_4 = float(input("enter the number in subject 4="))
+subject_5 = float(input("enter the number in subject 5="))
+sum = subject_1 + subject_2 + subject_3 + subject_4 + subject_5
+print("Total numbers out of 500=",sum)
+percentage = (sum//5)
+print("Total percentage obtained=",percentage,"%")
+if percentage>95:
+    print("your grade is A+")
+elif percentage>90:
+    print("your grade is A")
+elif percentage>80:
+    print("your grade is B+")
+elif percentage>70:
+    print("your grade is B")
+elif percentage>60:
+    print("your grade is C+")
+elif percentage>50:
+    print("your grade is C")
+elif percentage>40:
+    print("your grade is D+")
+elif percentage>33:
+    print("your grade is D")
+else:
+    print("your grade is F")
